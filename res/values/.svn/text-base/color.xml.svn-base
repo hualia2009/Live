@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sn_title_bg_color">#f22200</color>
+    
+    <color name="umeng_fb_color_btn_normal">#333333</color> 
+  	<color name="umeng_fb_color_btn_pressed">#1495F7</color> 
+  	
+  	<color name="livehall_tab_text_unselected">#474747</color>
+    <color name="livehall_tab_text_selected">#ff3495</color>
+    <color name="black_transparent">#55000000</color>
+    
+
+    <color name="livehall_pop_item_pressed">#ffe6f2</color>
+    <color name="livehall_pop_item_unpressed">#ffffff</color>
+    <color name="livehall_pop_item_checked">#ff077e</color>
+    
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000001</color>
+    <color name="common_color_7">#ff242424</color>
+    <color name="common_color_9">#ff999999</color>
+    <color name="common_color_11">#ffffffff</color>    
+    <color name="common_color_1">#ff6db3</color>
+    
+    <color name="login_account">#ffb5b7bc</color>
+    <color name="login_line">#ffcccccc</color>
+    <color name="login_gray">#ff333438</color>
+    <color name="login_red">#ffda382b</color>
+    
+    <color name="anchor_type_unchecked">#9b9b9b</color>    
+    
+    <color name="rank_pop_selected">#ff3495</color>
+    <color name="rank_pop_unselected">#e3e3e3</color>
+    
+    <color name="font_color">#ff0084</color>
+    <color name="vip_red">#f22200</color>
+
+    <color name="vip_yellow">#ff9600</color>
+    <color name="vip_line_gray">#bbbbbb</color>
+    <color name="vip_dialog_title">#2e2e2e</color>
+    <color name="vip_dialog_text">#6a6a6a</color>
+    
+    <color name="noble_buy_btn_color">#e75a2f</color>
+    
+    <drawable name="red">#ff3495</drawable>
+    <drawable name="gray">#eeeeee</drawable>
+    
+    <color name="red">#fff22200</color>
+    
+    <!-- 个人中心-->
+    <color name="pager_background">#f6f6f6</color>
+    <color name="pager_line">#dfdfdf</color>
+    <color name="center_text">#626262</color>
+    <color name="center_text_light">#a7a7a7</color>
+    <color name="green">#22ac38</color>
+    <color name="center_red">#f22200</color>
+    
+    <color name="chat_input_hint">#999999</color>
+    
+    <!-- 飞屏字体颜色-->
+    <color name="fly_color">#7e17de</color>
+    <!-- 广播字体颜色-->
+    <color name="broadcast_color">#00b136</color>
+    
+    <color name="main_color">#ff077e</color>
+    <color name="vice_color">#ff3495</color>
+    <color name="main_bg">#f1f1f1</color>
+    <color name="white_bg">#ffffff</color>
+    
+    <color name="text_color_navigate">#474747</color>
+    <color name="text_color_title">#676767</color>
+    <color name="text_color_detail">#808080</color>
+    
+    <color name="my_text_color">#666666</color>
+    
+    <color name="transparent_background">#90000000</color>
+    
+    <color name="song_refuse">#00a62b</color>
+    <color name="song_untreated">#ff5907</color>
+    
+    
+    <color name="live_gift_tab_selected_bg">#ffd2d2d2</color>
+    <color name="live_gift_tab_line">#ddd</color>
+    <color name="live_gift_tab_bg">#fff3f3f3</color>
+    <color name="live_gift_viewpager">#fff6f6f6</color>
+    <color name="gift_pressed">#80000000</color>
+    <color name="all_track_color">#ff222222</color>
+    
+    <color name="live_chat_time">#ff666666</color>
+    <color name="live_chat_nickname_blue">#ff0000ff</color>
+    <color name="live_chat_nickname_red">#f22200</color>
+    <color name="live_chat_yellow">#EDAB0D</color>
+    <color name="live_chat_nickname_default">#ff9D409D</color>
+	<color name="live_chat_enterroom">#A8A8A8</color>
+	<color name="live_bg">#f1f1f1</color>
+	<color name="live_bg_trans">#88ffffff</color>
+	
+	<!-- vip字体颜色 -->
+    <color name="white_vip_text_color">#e40000</color>
+    <color name="gold_vip_text_color">#ff7e00</color>
+    <color name="diamond_vip_text_color">#a400ff</color>
+    
+    <color name="gridview_pressed">#e4ebed</color>
+    <color name="bottom_bar_red">#f22200</color>
+    
+    <color name="live_chat_congratulations">#ff3393</color>
+    <color name="live_chat_highlight">#ff2f65</color>
+    <color name="live_chat_description">#808080</color>
+    <color name="live_chat_username">#d30cf1</color>
+    <color name="live_chat_gamename">#d5a000</color>
+    <color name="live_chat_prizename">#ff3393</color>
+    <color name="live_chat_system_default">#7db946</color>
+	<color name="live_line">#ddd</color>
+</resources>

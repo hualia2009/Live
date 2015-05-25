@@ -1,0 +1,52 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/src/com/ninexiu/sixninexiu/lib/indicator
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2015-01-05T04:02:01.819685Z
+3293
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+PageIndicator.java
+file
+
+
+
+
+2015-03-18T09:17:02.000000Z
+3a6ceccd8c05ae893214f54aef2a9faf
+2015-01-05T04:02:01.819685Z
+3293
+liying
+
+PagerSlidingTabStrip.java
+file
+
+
+
+
+2015-03-18T09:17:02.000000Z
+f63fb6276929f29130fed6ab18080e16
+2015-01-05T04:02:01.819685Z
+3293
+liying
+

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http
+END
+Base64DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/Base64DataException.java
+END
+MyRedirectHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/MyRedirectHandler.java
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/AsyncHttpRequest.java
+END
+DataAsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/DataAsyncHttpResponseHandler.java
+END
+RangeFileAsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/RangeFileAsyncHttpResponseHandler.java
+END
+AsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/AsyncHttpResponseHandler.java
+END
+RetryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/RetryHandler.java
+END
+TextHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/TextHttpResponseHandler.java
+END
+PreemtiveAuthorizationHttpRequestInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/PreemtiveAuthorizationHttpRequestInterceptor.java
+END
+ResponseHandlerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/ResponseHandlerInterface.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/package-info.java
+END
+FileAsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/FileAsyncHttpResponseHandler.java
+END
+SaxAsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/SaxAsyncHttpResponseHandler.java
+END
+JsonValueInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/JsonValueInterface.java
+END
+Base64OutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/Base64OutputStream.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/Base64.java
+END
+JsonStreamerEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/JsonStreamerEntity.java
+END
+SimpleMultipartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/SimpleMultipartEntity.java
+END
+JsonHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/JsonHttpResponseHandler.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/PersistentCookieStore.java
+END
+SyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/SyncHttpClient.java
+END
+AssertUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/AssertUtils.java
+END
+RequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/RequestParams.java
+END
+BinaryHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/BinaryHttpResponseHandler.java
+END
+SerializableCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/SerializableCookie.java
+END
+RequestHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/RequestHandle.java
+END
+BaseJsonHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/BaseJsonHttpResponseHandler.java
+END
+MySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/MySSLSocketFactory.java
+END
+AsyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/m.9xiu.com/!svn/ver/3294/android/LiveAU/src/com/ninexiu/sixninexiu/lib/http/AsyncHttpClient.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/m.9xiu.com/!svn/ver/3284/android/LiveAU/res/anim
+END
+push_bottom_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/push_bottom_in.xml
+END
+ns_livehall_type_choice_pop_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/m.9xiu.com/!svn/ver/3284/android/LiveAU/res/anim/ns_livehall_type_choice_pop_show.xml
+END
+push_bottom_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/push_bottom_out.xml
+END
+slide_in_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/slide_in_from_top.xml
+END
+ns_livehall_type_choice_pop_close.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/m.9xiu.com/!svn/ver/3284/android/LiveAU/res/anim/ns_livehall_type_choice_pop_close.xml
+END
+slide_in_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/slide_in_from_bottom.xml
+END
+live_push_up_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/live_push_up_out.xml
+END
+slide_out_to_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/slide_out_to_top.xml
+END
+slide_out_to_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/slide_out_to_bottom.xml
+END
+live_push_up_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/m.9xiu.com/!svn/ver/2298/android/LiveAU/res/anim/live_push_up_in.xml
+END

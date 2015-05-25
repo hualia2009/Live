@@ -1,0 +1,61 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/res
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2015-01-06T03:36:01.427642Z
+3305
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+values
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core
+END
+ImageLoaderEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/ImageLoaderEngine.java
+END
+ImageLoadingInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/ImageLoadingInfo.java
+END
+DisplayBitmapTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/DisplayBitmapTask.java
+END
+DisplayImageOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/DisplayImageOptions.java
+END
+DefaultConfigurationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/DefaultConfigurationFactory.java
+END
+ImageLoaderConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/ImageLoaderConfiguration.java
+END
+LoadAndDisplayImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/LoadAndDisplayImageTask.java
+END
+ProcessAndDisplayImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/ProcessAndDisplayImageTask.java
+END
+ImageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/ImageLoader.java
+END

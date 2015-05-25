@@ -1,0 +1,52 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/.settings
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+org.eclipse.core.resources.prefs
+file
+
+
+
+
+2015-03-18T09:17:14.000000Z
+872bd8d1ee0b455752c4832db8f059e3
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2015-03-18T09:17:14.000000Z
+dedfa1639b1ef42bffad86ae405d2396
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/memory
+END
+BaseMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/memory/BaseMemoryCache.java
+END
+LimitedMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/memory/LimitedMemoryCache.java
+END
+MemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/memory/MemoryCache.java
+END

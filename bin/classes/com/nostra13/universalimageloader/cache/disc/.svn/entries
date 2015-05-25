@@ -1,0 +1,58 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/src/com/nostra13/universalimageloader/cache/disc
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+BaseDiscCache.java
+file
+
+
+
+
+2015-03-18T09:17:04.000000Z
+1c0d15241d2912b23a28d2d88de67faf
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+DiskCache.java
+file
+
+
+
+
+2015-03-18T09:17:04.000000Z
+be6c8edac553b18181b7cd5693424c12
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+impl
+dir
+
+naming
+dir
+

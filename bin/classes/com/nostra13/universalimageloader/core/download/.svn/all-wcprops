@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download
+END
+ImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download/ImageDownloader.java
+END
+NetworkDeniedImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download/NetworkDeniedImageDownloader.java
+END
+SlowNetworkImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download/SlowNetworkImageDownloader.java
+END
+HttpClientImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download/HttpClientImageDownloader.java
+END
+BaseImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/download/BaseImageDownloader.java
+END

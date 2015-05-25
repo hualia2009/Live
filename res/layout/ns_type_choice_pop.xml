@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="45.5dp" android:visibility="invisible"></LinearLayout>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:id="@+id/typegrid_layout"
+            android:visibility="gone">
+            
+        </FrameLayout>
+        <GridView
+                android:id="@+id/typegird"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#eeeeee"
+                android:horizontalSpacing="1dp"
+                android:listSelector="@android:color/darker_gray"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp" >
+            </GridView>
+
+    </FrameLayout>
+ 
+
+</LinearLayout>

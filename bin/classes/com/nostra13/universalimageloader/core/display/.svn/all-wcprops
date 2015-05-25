@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display
+END
+RoundedVignetteBitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/RoundedVignetteBitmapDisplayer.java
+END
+BitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/BitmapDisplayer.java
+END
+TransitionBitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/TransitionBitmapDisplayer.java
+END
+SimpleBitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/SimpleBitmapDisplayer.java
+END
+RoundedBitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/RoundedBitmapDisplayer.java
+END
+FadeInBitmapDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/display/FadeInBitmapDisplayer.java
+END

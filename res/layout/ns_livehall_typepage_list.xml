@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:PullToRefresh="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        PullToRefresh:ptrHeaderSubTextColor="#7e7e7e"
+        PullToRefresh:ptrHeaderTextColor="#545454"
+        PullToRefresh:ptrMode="pullDownFromTop"
+        PullToRefresh:ptrRefreshableViewBackground="#fafafa"
+        PullToRefresh:ptrShowIndicator="false"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <include
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ns_livehall_loading" />
+
+    <include
+        android:id="@+id/loading_morepage_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/ns_livehall_loading_morepage"
+        android:visibility="gone" />
+
+</FrameLayout>

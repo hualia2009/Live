@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist
+END
+QueueProcessingType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/QueueProcessingType.java
+END
+LoadedFrom.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/LoadedFrom.java
+END
+PauseOnScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/PauseOnScrollListener.java
+END
+SimpleImageLoadingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/SimpleImageLoadingListener.java
+END
+ImageScaleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ImageScaleType.java
+END
+ImageLoadingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ImageLoadingListener.java
+END
+ImageLoadingProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ImageLoadingProgressListener.java
+END
+ContentLengthInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ContentLengthInputStream.java
+END
+ViewScaleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ViewScaleType.java
+END
+FailReason.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/FailReason.java
+END
+SyncImageLoadingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/SyncImageLoadingListener.java
+END
+ImageSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/ImageSize.java
+END
+FlushedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/core/assist/FlushedInputStream.java
+END

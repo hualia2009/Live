@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/disc/naming
+END
+FileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/disc/naming/FileNameGenerator.java
+END
+Md5FileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java
+END
+HashCodeFileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/m.9xiu.com/!svn/ver/2326/android/LiveAU/src/com/nostra13/universalimageloader/cache/disc/naming/HashCodeFileNameGenerator.java
+END

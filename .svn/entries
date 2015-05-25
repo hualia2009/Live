@@ -1,0 +1,131 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2015-01-06T03:36:08.276741Z
+3306
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+.classpath
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+e43b9e994685d1055e421f721677fe94
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+.project
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+558103b2c4693670442d95c3c8f270f8
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+.settings
+dir
+
+69美女秀场插件接入使用文档.doc
+file
+
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/69%E7%BE%8E%E5%A5%B3%E7%A7%80%E5%9C%BA%E6%8F%92%E4%BB%B6%E6%8E%A5%E5%85%A5%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3.doc
+
+
+2015-03-18T09:17:01.000000Z
+b2b7fd591696996a291bf91756f465c0
+2014-11-10T10:31:35.693800Z
+2455
+liying
+has-props
+
+AndroidManifest.xml
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+a96b5b9a31bc800620da87b709dcab00
+2014-12-25T10:33:07.877923Z
+3202
+liying
+
+bin
+dir
+
+gen
+dir
+
+libs
+dir
+
+lint.xml
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+1ce274a186a2afb9f76542702f6ecc4d
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+proguard-project.txt
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+a8e31d01b7d94e721851a4dd39b088cb
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+project.properties
+file
+
+
+
+
+2015-03-18T09:17:01.000000Z
+2a71f889d69f030747d4b901b5dc6f18
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+res
+dir
+
+src
+dir
+

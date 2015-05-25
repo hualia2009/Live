@@ -1,0 +1,154 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/src/com/nostra13/universalimageloader/core
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+DefaultConfigurationFactory.java
+file
+
+
+
+
+2015-03-18T09:17:05.000000Z
+709a47041789db2b4fca8a0780d4c35a
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+DisplayBitmapTask.java
+file
+
+
+
+
+2015-03-18T09:17:05.000000Z
+641415916618b4cbf4cdf51fbdcd5188
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+DisplayImageOptions.java
+file
+
+
+
+
+2015-03-18T09:17:05.000000Z
+c01dec98adf4e3ccf7be704863b53008
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+ImageLoader.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+692c62717abee0ae29eab04d541e18cd
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+ImageLoaderConfiguration.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+2130dd503202ce461558f7a010889b1e
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+ImageLoaderEngine.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+976fbec308f6be26195763601a46130e
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+ImageLoadingInfo.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+28b5fb2d46d450b3ccdf178bde6954ad
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+LoadAndDisplayImageTask.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+53727c507ba0187c9309d646b40b9c85
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+ProcessAndDisplayImageTask.java
+file
+
+
+
+
+2015-03-18T09:17:06.000000Z
+d5decbf8275e0c6d381d943755c5ba8d
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+assist
+dir
+
+decode
+dir
+
+display
+dir
+
+download
+dir
+
+imageaware
+dir
+
+process
+dir
+

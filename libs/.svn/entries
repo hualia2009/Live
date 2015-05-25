@@ -1,0 +1,54 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/libs
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-15T09:36:54.811235Z
+2315
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+android-support-v4.jar
+file
+
+
+
+
+2015-03-18T09:17:08.000000Z
+9974894df6e8ba95bb27f5e85e2cdfb5
+2014-10-15T09:36:54.811235Z
+2315
+liying
+has-props
+
+gson-2.2.4.jar
+file
+
+
+
+
+2015-03-18T09:17:08.000000Z
+232ea9ab7ec43b8b2ef36181ee7d693b
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+has-props
+

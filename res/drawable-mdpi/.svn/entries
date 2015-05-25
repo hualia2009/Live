@@ -1,0 +1,54 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/res/drawable-mdpi
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+nineshow_ic_action_search.png
+file
+
+
+
+
+2015-03-18T09:17:08.000000Z
+99dc7371e2605f68d1146a8bddb0afbb
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+has-props
+
+nineshow_ic_launcher.png
+file
+
+
+
+
+2015-03-18T09:17:08.000000Z
+36033ecc5b2761ae5aa88ca68957624d
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+has-props
+

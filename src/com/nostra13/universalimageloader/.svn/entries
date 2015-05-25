@@ -1,0 +1,37 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/src/com/nostra13/universalimageloader
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2014-10-20T03:17:53.005468Z
+2326
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+cache
+dir
+
+core
+dir
+
+utils
+dir
+

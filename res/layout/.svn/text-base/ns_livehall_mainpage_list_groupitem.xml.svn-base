@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#e9e9e9"/>
+
+<RelativeLayout 
+    android:id="@+id/group_layout"
+    android:paddingLeft="3dp"
+    android:layout_marginTop="5dp"
+    android:background="#e9e9e9"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/group_icon"/>
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/group_name"
+        android:textSize="15sp"
+        android:textColor="#474747"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/group_icon"/>
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_more_right"
+        android:id="@+id/group_enter"/>
+</RelativeLayout>
+</LinearLayout>

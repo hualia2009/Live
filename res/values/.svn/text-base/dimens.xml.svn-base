@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    	
+    <dimen name="livehall_tab_textsize">16sp</dimen>
+    
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    
+    <dimen name="ld_height">120dp</dimen>
+    <dimen name="ld_rocker_padding_top">10dp</dimen>
+    <dimen name="ld_bar_padding_top">2dp</dimen>
+    <dimen name="ld_right_wedith">30dp</dimen>
+    <dimen name="ld_scroll_wedith">15dp</dimen>        
+    
+</resources>

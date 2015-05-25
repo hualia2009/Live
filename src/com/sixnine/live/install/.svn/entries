@@ -1,0 +1,52 @@
+8
+
+dir
+3872
+http://ops.9xiu.com:18080/svn/m.9xiu.com/android/LiveAU/src/com/sixnine/live/install
+http://ops.9xiu.com:18080/svn/m.9xiu.com
+
+
+
+2015-01-05T04:03:15.167331Z
+3297
+liying
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a4f223f-bc3f-4bc0-aba4-dedc2421e8f7
+
+FileUtil.java
+file
+
+
+
+
+2015-03-18T09:17:02.000000Z
+b5f51b25284d78b6693dd90d4da8029f
+2015-01-05T04:03:15.167331Z
+3297
+liying
+
+UpdateService.java
+file
+
+
+
+
+2015-03-18T09:17:02.000000Z
+2ce1a9b2eaa4646a4f4c9c5682d36429
+2014-10-13T12:48:54.052161Z
+2298
+huangli
+
