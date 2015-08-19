@@ -108,7 +108,7 @@ public class MainPageFragment extends Fragment {
 	    }  
 	};
 	
-	private OnScrollListener onScrollListener = new OnScrollListener() {
+    private OnScrollListener onScrollListener = new OnScrollListener() {
 
 		@Override
 		public void onScrollStateChanged(AbsListView view, int scrollState) {

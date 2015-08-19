@@ -11,53 +11,39 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import com.sixnine.live.R;
-import com.sixnine.live.install.FileUtil;
-import com.sixnine.live.install.UpdateService;
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Point;
 import android.graphics.PorterDuff.Mode;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.graphics.Typeface;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
-import android.os.Environment;
 import android.telephony.TelephonyManager;
-import android.text.SpannableStringBuilder;
-import android.text.Spanned;
 import android.text.TextUtils;
-import android.text.style.DynamicDrawableSpan;
-import android.text.style.ImageSpan;
 import android.util.Base64;
-import android.util.DisplayMetrics;
-import android.util.Log;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
-import android.view.animation.AnimationUtils;
+import android.view.WindowManager;
+import android.view.WindowManager.LayoutParams;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.sixnine.live.R;
 
 
 
@@ -81,6 +67,23 @@ public class Utils {
 		return false;
 	}
 	
+	    public static void MakeToast(Context context, String message) {
+	        if (context != null) {
+	            LayoutInflater inflate = (LayoutInflater) context
+	                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	            View view = inflate.inflate(R.layout.custom_toast, null);
+	            if (Utils.toast == null) {
+	                Utils.toast = new Toast(context);
+	                Utils.toast.setView(view);
+	                Utils.toast.setText(message);
+	                Utils.toast.setDuration(Toast.LENGTH_SHORT);
+	            } else {
+	                Utils.toast.setView(view);
+	                Utils.toast.setText(message);
+	            }
+	            Utils.toast.show();
+	        }
+	    }
 
 	
 
@@ -454,6 +457,53 @@ public class Utils {
 	
     public interface LoginDialogListenner{
     	public void confirm();
+    }
+    
+    public interface DialogListenner {
+        public void confirm();
+    }
+    
+    @SuppressLint("NewApi")
+    public static void customDialog(Context context, String title,
+            final DialogListenner dialogListenner) {
+        final AlertDialog dialog = new AlertDialog.Builder(context).create();
+        dialog.show();
+        Window window = dialog.getWindow();
+        View view = LayoutInflater.from(context).inflate(R.layout.alert_dialog,
+            null);
+        window.setContentView(view);
+        WindowManager windowManager = ((Activity) context).getWindowManager();
+        Display display = windowManager.getDefaultDisplay();
+        LayoutParams params = window.getAttributes();
+        Point point = new Point();
+        display.getSize(point);
+        params.width = (int) (point.x * 0.8);
+        window.setAttributes(params);
+
+        TextView mainContent = (TextView) window.findViewById(R.id.title);
+        Button confirm = (Button) window.findViewById(R.id.confirm);
+        Button cancel = (Button) window.findViewById(R.id.cancel);
+
+        mainContent.setText(title);
+        confirm.setText("确认");
+        confirm.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                if (dialog != null) {
+                    dialog.dismiss();
+                }
+                dialogListenner.confirm();
+            }
+        });
+        cancel.setText("取消");
+        cancel.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                dialog.cancel();
+            }
+        });
     }
 	
  

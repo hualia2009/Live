@@ -1,4 +1,15 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
- 
+    	<style name="ShowWidgetButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@drawable/xml_dialog_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">13.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">13.0dip</item>
+        <item name="android:focusable">false</item>
+    </style>
 </resources>

@@ -59,4 +59,7 @@
     <string name="pull_to_sync_from_up_refreshing_label">给力同步中&#8230;</string>
     <string name="hot">%d</string>
     <string name="hot_ten_thousand">%.1f万</string>
+    
+        <string name="cancel">取消</string>
+    <string name="confirm">确定</string> 
 </resources>

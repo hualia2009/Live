@@ -107,7 +107,15 @@ public class TypePageFragment extends Fragment {
 		}
 	};
 	
-	private OnRefreshListener2 onRefreshListener = new OnRefreshListener2() {
+	public TypePageAdapter getTypePageAdapter() {
+        return typePageAdapter;
+    }
+
+    public void setTypePageAdapter(TypePageAdapter typePageAdapter) {
+        this.typePageAdapter = typePageAdapter;
+    }
+
+    private OnRefreshListener2 onRefreshListener = new OnRefreshListener2() {
 
 		@Override
 		public void onPullDownToRefresh(PullToRefreshBase refreshView) {

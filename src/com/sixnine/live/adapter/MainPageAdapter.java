@@ -23,6 +23,8 @@ import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.leslie.gamevideo.AppConnect;
+import com.leslie.gamevideo.UpdatePointsNotifier;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -33,7 +35,9 @@ import com.sixnine.live.bean.AnchorInfo;
 import com.sixnine.live.fragment.LiveHallFragment;
 import com.sixnine.live.install.FileUtil;
 import com.sixnine.live.install.UpdateService;
+import com.sixnine.live.util.SharePreferenceUtil;
 import com.sixnine.live.util.Utils;
+import com.sixnine.live.util.Utils.DialogListenner;
 
 
 
@@ -89,8 +93,8 @@ public class MainPageAdapter extends BaseExpandableListAdapter {
 		this.gaoXiaoLists = gaoXiaoLists;
 		init();
 	}
-
-	private void init() {
+	
+    private void init() {
 		dealWithLists(windLists, typeNames[0],typeImageId[0]);
 		dealWithLists(recommendLists, typeNames[1],typeImageId[1]);
 		dealWithLists(nvShenLists, typeNames[2],typeImageId[2]);
@@ -153,17 +157,48 @@ public class MainPageAdapter extends BaseExpandableListAdapter {
 				if (!isPluginApkInstalled(context)) {
 					return;
 				}
+				
+				AnchorInfo anchorInfo=getHost(groupPosition,childPosition, ITEM_LEFT);
+				//提示下载广告
+				if(Integer.parseInt(anchorInfo.getUserCount()) > 1000 && 
+				        SharePreferenceUtil.getInstance(context).getTotalPoint()<=50){
+				    Utils.customDialog(context, "此房间人数过多，进入房间积分不够，去获取积分？", new DialogListenner(){
 
-					AnchorInfo anchorInfo=getHost(groupPosition,childPosition, ITEM_LEFT);
-					Intent intent = new Intent();
-					ComponentName componentName = new ComponentName("com.ninexiu.plugin",
-							"com.ninexiu.plugin.activity.LiveRoomActivity");
-					intent.putExtra("roomId", anchorInfo.getRid());
-					intent.putExtra("isPlay", anchorInfo.getIsPlay());
-					intent.putExtra("nickName", anchorInfo.getNickName());
+                        @Override
+                        public void confirm() {
+                            AppConnect.getInstance(context).showOffers(context);
+                        }
+                        
+                    });
+				    return;
+				}
+				
+				if(Integer.parseInt(anchorInfo.getUserCount()) > 1000){
+				    Utils.MakeToast(context, "由于房间人数过多，需要花费积分50");
+				    AppConnect.getInstance(context).spendPoints(50, new UpdatePointsNotifier() {
+                        
+                        @Override
+                        public void getUpdatePointsFailed(String arg0) {
+                            
+                        }
+                        
+                        @Override
+                        public void getUpdatePoints(String arg0, int arg1) {
+                            SharePreferenceUtil.getInstance(context).setTotalPoint(arg1);
+                        }
+                    });
+				}
+				
+				
+				Intent intent = new Intent();
+				ComponentName componentName = new ComponentName("com.ninexiu.plugin",
+						"com.ninexiu.plugin.activity.LiveRoomActivity");
+				intent.putExtra("roomId", anchorInfo.getRid());
+				intent.putExtra("isPlay", anchorInfo.getIsPlay());
+				intent.putExtra("nickName", anchorInfo.getNickName());
 
-					intent.setComponent(componentName);
-					context.startActivity(intent);
+				intent.setComponent(componentName);
+				context.startActivity(intent);
 				
 			}
 		});
@@ -177,17 +212,47 @@ public class MainPageAdapter extends BaseExpandableListAdapter {
 				if (!isPluginApkInstalled(context)) {
 					return;
 				}
+				
+				AnchorInfo anchorInfo=getHost(groupPosition,childPosition, ITEM_RIGHT);
+				//提示下载广告
+                if(Integer.parseInt(anchorInfo.getUserCount()) > 1000 && 
+                        SharePreferenceUtil.getInstance(context).getTotalPoint()<=50){
+                    Utils.customDialog(context, "此房间人数过多，进入房间积分不够，去获取积分？", new DialogListenner(){
 
-					AnchorInfo anchorInfo=getHost(groupPosition,childPosition, ITEM_RIGHT);
-					Intent intent = new Intent();
-					ComponentName componentName = new ComponentName("com.ninexiu.plugin",
-							"com.ninexiu.plugin.activity.LiveRoomActivity");
-					intent.putExtra("roomId", anchorInfo.getRid());
-					intent.putExtra("isPlay", anchorInfo.getIsPlay());
-					intent.putExtra("nickName", anchorInfo.getNickName());
+                        @Override
+                        public void confirm() {
+                            AppConnect.getInstance(context).showOffers(context);
+                        }
+                        
+                    });
+                    return;
+                }
+                
+                if(Integer.parseInt(anchorInfo.getUserCount()) > 1000){
+                    Utils.MakeToast(context, "由于房间人数过多，需要花费积分50");
+                    AppConnect.getInstance(context).spendPoints(50, new UpdatePointsNotifier() {
+                        
+                        @Override
+                        public void getUpdatePointsFailed(String arg0) {
+                            
+                        }
+                        
+                        @Override
+                        public void getUpdatePoints(String arg0, int arg1) {
+                            SharePreferenceUtil.getInstance(context).setTotalPoint(arg1);
+                        }
+                    });
+                }
+                
+				Intent intent = new Intent();
+				ComponentName componentName = new ComponentName("com.ninexiu.plugin",
+						"com.ninexiu.plugin.activity.LiveRoomActivity");
+				intent.putExtra("roomId", anchorInfo.getRid());
+				intent.putExtra("isPlay", anchorInfo.getIsPlay());
+				intent.putExtra("nickName", anchorInfo.getNickName());
 
-					intent.setComponent(componentName);
-					context.startActivity(intent);
+				intent.setComponent(componentName);
+				context.startActivity(intent);
 				
 			}
 		});
